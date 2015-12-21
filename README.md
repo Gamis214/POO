@@ -22,7 +22,7 @@ Al final nuestra clase **Celular** queda de la siguiente manrea:
 ```java
 public class Celular {
 
-    String nombre,color;
+    private String nombre,color;
     
     public Celular(String nombre,String color){
         this.nombre = nombre;
