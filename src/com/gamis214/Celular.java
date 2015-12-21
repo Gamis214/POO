@@ -5,20 +5,21 @@ public class Celular {
 
     String nombre,color;
 
-    public Celular(){
-
-    }
-
     public Celular(String nombre,String color){
         this.nombre = nombre;
         this.color = color;
     }
 
+    public Celular(){}
+
     public void llamar(){
-        System.out.println("Llamando de "+nombre+" Color: "+color);
+        System.out.println("Llamando de "+nombre+" - "+color);
     }
 
-    public void llamarEspecial(Celular celular){
-        System.out.println("Nombre: " + celular.nombre + "\nColor:" + celular.color );
+    public void detalleCelular(Celular celular){
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("Nombre: " + celular.nombre + "\nColor:  " + celular.color );
+        System.out.println("-----------------------------------------------------------");
     }
+
 }

@@ -12,6 +12,6 @@ public class Main {
 
         Celular detalleCelular = new Celular(); //Mostrando detalle de objeto celular creado
 
-        detalleCelular.llamarEspecial(celular2);
+        detalleCelular.detalleCelular(celular2);
     }
 }
