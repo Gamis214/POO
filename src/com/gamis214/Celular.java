@@ -3,7 +3,7 @@ package com.gamis214;
 
 public class Celular {
 
-    String nombre,color;
+    private String nombre,color;
 
     public Celular(String nombre,String color){
         this.nombre = nombre;
