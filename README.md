@@ -1,5 +1,5 @@
 # POO (Programación Orientada a objetos)
-  Ejemplo sencillo aplicando la Programación orientada a objetos en Java
+  Ejemplo aplicando la Programación orientada a objetos en Java
 ##Ejemplo
 Creamos una clase llamada **Celular** la cual contiene dos caracteristicas principales:
  * Nombre
